@@ -35,7 +35,7 @@ try {
   $graphEdge = $response->getGraphEdge();
   $posts_metadata=array("message","date","from","permalink_url","shares","type","source","comments","likes");
 
-  $file='data/foreign-cameroon-21-08.json';
+  $file='data/<file>.json';
   $fp = fopen($file, 'a');
   //fputcsv($fp, $posts_metadata);
 
