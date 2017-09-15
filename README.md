@@ -2,7 +2,7 @@
 php file using Facebook php graph SDK to get info about groups in Facebook
 
 
-# Requirements
+## Requirements
 At the root directory of the project, create a virtual machine with all prerequesites.
 If you are not familiar with vagrant, please refer to latest official documentation: https://www.vagrantup.com/
 ```sh
@@ -12,7 +12,7 @@ If you are not familiar with vagrant, please refer to latest official documentat
 ```
 you should see project files on this folder in the created virtual machine
 
-# Getting Started
+## Getting Started
 
 In get_group_feeds.php file:
 1. Replace APPLICATION_ID & APPLICATION_SECRET by your own
