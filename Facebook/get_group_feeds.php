@@ -24,8 +24,8 @@ $request = $fb->request(
   '/GROUP_ID/feed',
   array(
     'fields' => 'message,created_time,from,permalink_url,shares,attachments{media,type,url},likes.limit(1).summary(true),comments.limit(1).summary(true)',
-    'since' => '1454112000',
-    'until' => '1456704000'
+    'since' => 'SINCE_DATE',
+    'until' => 'UNTIL_DATE'
   )
 );
 
