@@ -23,6 +23,7 @@ https://developers.facebook.com/tools/explorer/ . This token would be available 
 3. Get the group ID you want to crawl the feeds :
     - open a tab with your favorite browser & open up the facebook group/page
     - Copy the URL & paste URL at https://lookup-id.com/ to determine the group ID
+    - replace GROUP_ID , SINCE_DATE and UNTIL_DATE by your own
 
 4. Specify time interval using 'since' & 'until' properties.
 Please note that these datetime are unixtimestamp format.
